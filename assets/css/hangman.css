@@ -15,12 +15,10 @@ h1 {
 }
 
 #spacer {
-  height: 95px;
+  height: 75px;
 }
 
-#spacerTwo {
-  height: 50px;
-}
+
 
 #header {
 	border:5px solid #ffffff;
@@ -34,16 +32,6 @@ h1 {
 #skierpic {
   height: 295px;
   width: 100%;
-}
-
-.wrappper {
-  width: 100%;
-  margin: 0 auto;
-}
-.wrappper:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 #alphabet {
@@ -69,10 +57,6 @@ h1 {
   color: #006699;
   font-size: 18px;
   cursor: pointer;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -khtml-border-radius: 5px;
   border: solid 1px #fff;
 }
 #alphabet li:hover {
@@ -94,14 +78,12 @@ button {
   cursor: pointer;
   font-size: 2em;
   padding: 18px 10px;
-  width: 180px;
+  width: 200px;
   margin: 10px;
   outline: none;
 }
 button:hover {
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+
   background-color: #f0f0f0;
   border: solid 1px #fff;
   color: #fff;
